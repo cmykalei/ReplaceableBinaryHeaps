@@ -1,8 +1,28 @@
-
 # Replaceable Binary Heap
+A replaceable min-heap data structure with JUnit tests in Java.
 
-### Test Results
+## Project 🌳
+```
+.
+├── HeapPrinter.java
+├── Main.java
+├── MinHeap.java
+├── Parameters.java
+├── README.md
+├── Ride.java
+├── TestMinHeap.java
+├── TestRide.java
+├── TestSuite.java
+└── junit-platform-console-standalone-1.8.2.jar
+```
 
+### Usage
+Run the JUnit tests using the standalone console launcher:
+```bash
+java -jar junit-platform-console-standalone-1.8.2.jar -cp "." -c TestRide
+```
+
+#### Test Results
 ```
 Kaleis-MacBook-Pro:Round-8 kaleiesteves$ java -jar junit-platform-console-standalone-1.8.2.jar -cp "." -c TestRide
 
@@ -125,3 +145,7 @@ Test run finished after 285 ms
 
 Kaleis-MacBook-Pro:Round-8 kaleiesteves$ 
 ```
+
+## Commands
+1. To run the Ride tests use `java -jar junit-platform-console-standalone-1.8.2.jar -cp "." -c TestRide`.
+2. To run the MinHeap tests use `java -jar junit-platform-console-standalone-1.8.2.jar -cp "." -c TestMinHeap`.
